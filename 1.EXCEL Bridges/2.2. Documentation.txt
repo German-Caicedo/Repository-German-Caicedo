@@ -1,4 +1,4 @@
-Title: Small Concrete Bridge Design and Reinforcement Calculation Documentation
+Title:Beam Design and Reinforcement Calculation Documentation
 Introduction:
 This document explains the Excel book used to calculate dimensions and steel reinforcements for the longitudinal beams of a small concrete bridge based on various inputs. The calculations are based on experimental observations and recommendations from the AASHTO design code for bridges.
 
