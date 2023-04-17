@@ -1,2 +1,2 @@
 # Repository German Caicedo
- 
+ This repository is my personal collection of various projects related to my academic courses, which includes Structural Analysis, Dynamics Analysis, Bridge Design, and Reinforced Concrete. Furthermore, this repository also holds the code that I have used for my final undergraduate project. In addition, I have included some of my practice code from my earlier semesters. All of the content in this repository has been created by me during my academic studies, and I have stored it here for future reference and use for other people.
