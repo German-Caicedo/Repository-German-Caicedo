@@ -1,1 +1,1 @@
-
+This MATLAB code calculates the working stress of nodes in a combined footing using displacement data from an external text file obtained from a structural analysis software, such as SAP2000. It defines variables for soil stiffness, admissible stress, and footing thickness, and calculates working stress for each node. The code identifies nodes exceeding admissible stress, calculates the percentage, and plots the working stress with a reference to admissible stress, including footing thickness and the percentage of exceeded nodes in the legend.
