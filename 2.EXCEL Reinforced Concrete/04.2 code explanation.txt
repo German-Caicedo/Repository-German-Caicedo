@@ -1,0 +1,16 @@
+This Excel sheet is designed for calculating the different combinations of rebar that can be used for an existing beam cross-section with a corresponding ultimate moment, in compliance with the ACI code 318-14. The following inputs are required:
+
+Height of the beam
+Width of the beam
+Diameter of the stirrup
+Cover of rebar
+Compressive strength of concrete
+Yielding strength of steel
+The distance "d" must be iterated. It is equivalent to the effective height of the beam cross-section, and represents the distance between the side of the beam that experiences the maximum compressive stress and the centroid of the longitudinal reinforcement bars that are in tension.
+The sheet contains two tables on the right-hand side. The first table displays numbers from 1 to 20 and diameters from 8 to 36mm, while the second table displays numbers from 1 to 5 and a range of similar diameters to choose from. The first table is intended for selecting a certain number of bars with a single diameter, while the second table is for selecting a combination of two diameters in a two-way table.
+
+The number of options available for selection depends on the acceptable difference between the needed and chosen longitudinal bar combinations for the beam section, as specified in the cell labeled "diferencia aceptable cm2". The degree of efficiency desired for the calculation will determine the number of options presented.
+
+The sheet calculates the needed steel cross-sectional area to withstand a moment (labeled "As. Calculado"), and provides a list of steel bars that must be chosen from the table (labeled "As. Provista"). It also incorporates a checker to ensure that the input diameters have a spacing that meets the code's requirements.
+
+This Excel sheet assumes that the beam is a single reinforced beam, and the inputs are labeled in Spanish.

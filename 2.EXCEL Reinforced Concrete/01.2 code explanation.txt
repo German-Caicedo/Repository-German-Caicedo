@@ -1,0 +1,24 @@
+This is documentation of an Excel workbook used to calculate the interaction diagram of a rectangular column. The goal of the workbook is to help engineers ensure that a reinforced concrete column can withstand both axial load and bending moment without failing. The workbook is divided into several sheets, and the inputs used to specify the properties of the beam are linked to the other sheets.
+
+The following inputs are required to calculate the interaction diagram:
+
+Width (cm)
+Height (cm)
+f'c (compressive strength of concrete) (kg/cm2)
+fy (yield strength of steel) (kg/cm2)
+Ties diameter
+Rebar cover
+The centroid of the rebar is calculated in the cell labeled "e. varillas" using the input data. The steel total cross-sectional area is then created, and the strength of the column (P) is calculated using the contribution of both the steel and the concrete. The "c" cell represents the distance from the neutral axis of the beam to the part where there is the maximum compressive force due to flexure, and Cc represents the contribution of concrete to the strength of the column.
+
+In the next table, the diameter, number, and distribution of each rebar row must be input. The "di" cell represents the distance from the centroid of the rebar to the part where there is the maximum compressive force due to flexure. The stress experienced by each row of rebar (fsi) is calculated proportional to the distance from the neutral axis, and corrected to ensure that it is lower than the yield strength of the steel. The strength of each row is calculated by multiplying the area of the steel by the stress, and the moment from each row is then calculated.
+
+The flexural strength of the column is calculated from the sum of the steel contribution and the concrete contribution. The compressive strength of the column is also calculated from both materials. Cbal, instead of c in the first sheet, is calculated with the premise that only the last row of steel in tension will experience the yield strength, and the other rows will take proportionally less. Meanwhile, the concrete experiences the maximum compressive strain.
+
+The maximum axial strength to compression forces is calculated on the "pmax" sheet and must be iterated. The strength of the column if it only experienced compressive stresses is calculated and multiplied by the reduction strength factor from the code. The factor depends on the maximum steel strain, and this marks an upper bound on the diagram.
+
+In the next sheet, c is iterated until the axial force is zero. The p1, p2, p3, and p4 sheets are used to put points within the physically possible location of the neutral axis of the column, changing the value of c so that the shape of the diagram is better appreciated. Finally, the diagrams are plotted using the data obtained from the previous sheets.
+
+this book complies with the ACI code 318-14
+
+
+Note that most of the instructions are in Spanish.
