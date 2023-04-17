@@ -1,1 +1,1 @@
-
+The folder includes input files that consist of flow data collected every 15 minutes for the river in the case study of the thesis, along with their corresponding timestamps, as well as MATLAB files for both the ARIMA model and the Thomas Fiering model.
