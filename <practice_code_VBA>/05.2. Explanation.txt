@@ -1,0 +1,9 @@
+5.	RemoveFirstDuplicateCharacter
+
+This VBA script for Excel takes a user-inputted phrase and removes any repeating characters from it. The user is prompted to enter a phrase, which is displayed in the active cell. The script then iterates through the characters of the phrase, checking for repetitions. If a repeating character is found, it is removed from the phrase. The modified phrase is displayed in the cell adjacent to the original phrase, and the process continues until all repeating characters have been removed.
+includes the following programming concepts:
+a)	Variables: The code declares and initializes several variables using the Dim statement, including F, C, X, Y, I, and P.
+b)	Input/Output: The code prompts the user for input using the InputBox function, and outputs the original input string, the positions of the repeated letters, and the input string with the repeated letters removed, to different cells in the active worksheet using the Cells property.
+c)	Looping: The code uses nested Do Loops to iterate through each letter in the input string, check if it is repeated, and remove all instances of the repeated letter from the string.
+d)	String Manipulation: The code uses the Mid function to extract each letter in the input string, and the InStr function to find the positions of all repeated letters. It also uses the Left and Mid functions to remove all instances of a repeated letter from the input string.
+The algorithm used in this code involves iterating through each letter in the input string, checking if it is repeated, and removing all instances of the repeated letter from the string. It does this by finding the positions of all repeated letters using the InStr function, and then using the Left and Mid functions to remove all instances of a repeated letter from the input string. It outputs the original input string, the positions of the repeated letters, and the modified input string to the worksheet.

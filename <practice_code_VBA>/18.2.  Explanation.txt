@@ -1,0 +1,10 @@
+18.	Concatenate
+This VBA macro concatenates a list of words in an Excel worksheet into a single phrase. It declares variables for the row and column numbers of the active cell, an array to hold the list of words, a string to store the joined words, and an integer to track the number of words in the list. It reads each word in the list into the array until it reaches a blank cell, then concatenates the words in the array into a single phrase using the Join() function. Finally, it writes the resulting phrase to the worksheet in a cell one column to the right of the last word in the list. This code is designed to work with any number of words in the list.
+It includes the following programming concepts:
+
+a)	Variables: The code declares and initializes several variables using the Dim statement, including F, C, Y, A, and I.
+b)	Input/Output: The code accesses data from cells in the active worksheet using the Cells property and outputs a joined phrase to an adjacent cell using the same property.
+c)	Looping: The code uses a Do Loop to iterate through a range of cells in the active worksheet.
+d)	Arrays: The code declares and populates an array using the Dim and Join statements to store and join the words in the given range.
+The algorithm used in this code involves joining a list of words in a given range into a single phrase. The code starts by initializing the variables F and C to the values of the active cell's row and column, respectively, and declaring an array Y of 100 elements and a string A to hold the final phrase. It then enters a Do Loop that populates the array Y with each subsequent cell in the range until it reaches a cell with no value. Finally, the Join function is used to concatenate the elements in the array Y into a single string, which is outputted to an adjacent cell using the Cells property.
+

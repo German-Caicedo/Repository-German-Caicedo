@@ -1,0 +1,7 @@
+12.	WordCountInput
+This VBA code prompts the user to enter a phrase, and then counts the number of words in the phrase. It works by using the InputBox function to get the user's input, and then using the Split function to split the phrase into an array of words. The number of words is then counted using the UBound function and the result is displayed in the cell below the phrase.
+It includes the following programming concepts:
+a)	Variables: The code declares and initializes several variables using the Dim statement, including f, c, x, and y.
+b)	Input/Output: The code prompts the user to input a sentence using an InputBox and outputs the number of words in the sentence to an adjacent cell using the Cells property.
+c)	String Manipulation: The code uses the Split function to split the input sentence into an array of individual words, which is then used to calculate the total number of words.
+The algorithm used in this code involves prompting the user to input a sentence using an InputBox, storing the sentence in the variable x, and then splitting the sentence into an array of individual words using the Split function. The code then calculates the total number of words in the sentence by getting the upper bound of the resulting array using the UBound function and adding 1 to account for the first word. Finally, the result is output to an adjacent cell in the worksheet using the Cells property.

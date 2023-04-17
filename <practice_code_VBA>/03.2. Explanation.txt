@@ -1,0 +1,8 @@
+3.	FilterEvenNumbers
+The code processes a column of data starting from the active cell, copying even numbers to the adjacent column. It iterates through cells in the first column, and if the value is even, it copies it to the adjacent cell in the next column. After processing the data, the code compacts the adjacent column by moving non-empty cells up, eliminating gaps left by empty cells. This is done by iterating through the cells and shifting the non-empty ones upward, while clearing the original cell contents.
+It includes the following programming concepts:
+a)	Variables: The code declares and initializes several variables using the Dim statement, including F, C, and Z.
+b)	Looping: The code uses a Do While loop to iterate through each cell in a column (starting from the active cell), and checks if the value in the cell is even (i.e., divisible by 2). If the value is even, it outputs the value to the cell next to it (i.e., in the next column).
+c)	Conditional Statements: The code uses a conditional statement (If...Then) to check if the value in a cell is even, and only outputs the value to the next cell if it is even.
+d)	For Loop: The code uses a For loop to iterate through each row in the column again, and moves any non-empty cell containing an even value to the top of the column, while preserving the order of the other values.
+The algorithm used in this code involves iterating through each cell in a column, checking if the value is even, and outputting the even values to the next column. Then, it iterates through the column again and moves any non-empty even values to the top of the column while preserving the order of the other values.

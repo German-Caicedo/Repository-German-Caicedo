@@ -1,0 +1,8 @@
+2.	“ReverseWordOrder”
+Takes a user-inputted phrase and reverses it word by word. First, it clears the cells in the active sheet, prompts the user to enter a phrase, and places it in the active cell. The code then reverses the entire phrase and splits it into words. It iterates through the words, reversing each one individually, and displays them in separate cells below the active cell. Finally, the code reassembles the reversed words into a single phrase and displays it in the cell to the right of the active cell. 
+It includes the following programming concepts:
+a)	Variables: The code declares and initializes several variables using the Dim statement, including Z, F, C, A, Y, and I.
+b)	Input/Output: The code prompts the user for input using the InputBox function, and outputs the original input string, the reversed words, and the final string with the words reversed and concatenated using the Join function, to different cells in the active worksheet using the Cells property.
+c)	String Manipulation: The code uses the StrReverse function to reverse the input string, and the Split function to split the reversed string into an array of words. It then uses a loop to reverse each word in the array using the StrReverse function again, and outputs each reversed word to a separate cell in the worksheet. Finally, it uses the Join function to concatenate the reversed words back into a single string and outputs it to a cell in the worksheet.
+The algorithm used in this code involves reversing the input string, splitting it into an array of words, reversing each word in the array, and then concatenating the reversed words back into a single string.
+

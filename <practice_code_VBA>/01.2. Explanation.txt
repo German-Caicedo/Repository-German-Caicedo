@@ -1,0 +1,7 @@
+1.	Asterisks	
+Clears the cells in the active sheet and prompts the user to input a phrase. It iterates through each character in the phrase, replacing any non-space character with an asterisk (*). The modified phrase is then displayed in the active cell, effectively masking all non-space characters with asterisks while preserving the spaces in the original input.
+It includes the following programming concepts:
+a)	Variables: The code declares and initializes several variables using the Dim statement, including f, c, x, y, and i.
+b)	Input/Output: The code prompts the user for input using the InputBox function, and outputs the result to a cell in the active worksheet using the Cells property.
+c)	Conditional Statements: The code uses conditional statements (If...Then...Else) to check the value of each character in the input string and replace it with either a space or an asterisk.
+The algorithm used in this code involves iterating through each character in the input string and checking its value. If the character is a space, it is replaced with a space in the output string. If it is not a space, it is replaced with an asterisk. The resulting string is then output to a cell in the worksheet.
