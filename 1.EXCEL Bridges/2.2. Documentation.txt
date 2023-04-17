@@ -1,0 +1,20 @@
+Title: Small Concrete Bridge Design and Reinforcement Calculation Documentation
+Introduction:
+This document explains the Excel book used to calculate dimensions and steel reinforcements for the longitudinal beams of a small concrete bridge based on various inputs. The calculations are based on experimental observations and recommendations from the AASHTO design code for bridges.
+
+Sheet 1: Moment Calculations
+The first sheet calculates the different moments obtained from the bridge structure and its attachments. The inputs required are length of the bridge, separation between beams, width of the sidewalk, height of the sidewalk, thickness of the asphalt pavement layer, thickness of the slab, number of beams, height and width of the beam cross-section, road lane width, cantilever width, barrier width and height, and design truck or tandem. The sheet then calculates the weight of all components, verifies if the AASHTO formulas are applicable, and calculates the live load distribution factor and multiple presence factor. Finally, the sheet calculates the dead loads from different components and converts them into a linear distributed load over the beams.
+
+Sheet 2: Interior Beam Cross-Section Design
+The second sheet calculates the cross-section of the interior beams based on flexion calculations. The inputs required are steel yield strength, concrete compression strength, concrete cover, separation between longitudinal reinforcement bars, stirrup diameter, and reinforced concrete strength reduction factor. The sheet then iterates until the effective height of the resistant section of the beam coincides with the calculated height based on the steel reinforcement and an adequate beam section ratio of height and width is achieved.
+
+Sheet 3: Exterior Beam Cross-Section Design
+The third sheet calculates the cross-section of the exterior beams based on flexion calculations, following the same steps as in Sheet 2.
+
+Sheet 4: Interior Beam Shear Reinforcement Design
+The fourth sheet calculates the shear reinforcement for the interior beams. It calculates the maximum theoretical shear force the beams will withstand using influence lines for both live and dead loads. The inputs required are strength reduction factor for shear stresses, mechanical properties of concrete and steel. The sheet then calculates the optimal steel distribution for maximum efficiency and evaluates the combined shear and flexural strengths against the maximums of shear and flexion for elements undergoing combined stresses.
+
+Sheet 5: Exterior Beam Shear Reinforcement Design
+The fifth sheet calculates the shear reinforcement for the exterior beams. It follows the same procedure as in Sheet 4, with the difference that the maximum shear force calculation uses the live load distribution coefficient for exterior beams and utilizes the according calculations.
+
+Note: In the Excel book, there are screenshots of the AASHTO code that provide valuable insights and explanations of how the researchers obtained the formulas used for this particular design problem.

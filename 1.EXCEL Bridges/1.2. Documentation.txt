@@ -1,0 +1,54 @@
+Title: Bridge Abutment Design and Reinforcement Calculation Documentation
+
+Introduction:
+This document explains the Excel sheet used to calculate bridge abutment dimensions and steel reinforcements based on various inputs. The calculations are based on experimental observations and recommendations from the AASHTO design code for bridges.
+
+Inputs:
+
+Height of the abutment
+Length of the base (to iterate)
+Width of stem
+Width of base
+Length of stem
+Length of base
+Number of longitudinal beams
+Width of the superstructure
+Number of vehicular lanes
+Weight of the design truck or tandem
+Height of the front fill
+Concrete density
+Soil fill density
+Soil friction angle
+Inclination of the wall
+Inclination of the soil fill
+Soil-surface roughness
+Vertical loads on the superstructure and horizontal loads
+Load increase coefficients
+Overload due to traffic
+Breaking force
+Calculation Steps:
+
+Resistance to Overturning:
+Calculate the resistance to overturning of the abutment based on the moments taken from a critical point on the base.
+
+Bearing Resistance:
+Evaluate the bearing resistance of the soil, considering the weight of the structure and the additional forces.
+
+Resistance to Sliding:
+Calculate the resistance to sliding with and without earthquake, taking into account stabilizing and de-stabilizing forces.
+
+Vertical Reinforcement:
+Calculate the reinforcing steel that will resist the moment that comes perpendicular to the plane for the stem, heel slab, and toe slab.
+
+Horizontal Reinforcement:
+Determine if the horizontal length of the abutment in the plane perpendicular to the longitudinal axis of the road is adequate and calculate the required reinforcement.
+
+Minimum Steel (Shrinkage Steel):
+Calculate the minimum steel required for shrinkage.
+
+Shear Resisting Steel:
+Calculate the shear resisting steel required.
+
+In the Excel sheet, there are screenshots of the AASHTO code that provide valuable insights and explanations of how the researchers obtained the formulas used for this particular design problem.
+
+Note: This is a brief summary of the process. In practice, each step involves specific calculations and adjustments based on the unique conditions of the project.

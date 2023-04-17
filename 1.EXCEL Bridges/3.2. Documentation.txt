@@ -1,0 +1,60 @@
+Title: Bridge Slab Design and Reinforcement Calculation Documentation
+
+Introduction: This document explains the Excel sheet used to calculate bridge slab dimensions and steel reinforcements based on various inputs. The calculations are based on experimental observations and recommendations from the AASHTO design code for bridges.
+
+The Excel book is divided into three main parts:
+
+Moments and weight of the structure
+Positive and Negative Bending Moment Steel
+Steel design
+Part 1: Moments and Weight of the Structure
+In this part, the weight of the structure and the according moments for the design of the slab are obtained. The inputs include dead load amplification factor, thickness of the slab, thickness of the pavement, width of barriers, height of sidewalks, width of sidewalks, width of slab, needed width for traffic lanes, number of beams, width of cantilever, width of the beams, maximum positive and negative moments for the live load, and live load amplification factor.
+
+Part 2: Positive and Negative Bending Moment Steel
+This part involves the calculation of the positive and negative bending moment steel reinforcements. Inputs include elasticity modulus of concrete, elasticity modulus of steel, ultimate compression strength of concrete, yield strength of steel, and flexural strength reduction factor. Barrier dimensions are assumed based on the type of traffic and vehicle collisions. These dimensions are used to obtain a collision moment.
+
+Part 3: Steel Design
+With the inputs in place, it's time to calculate the following quantities with some iteration:
+
+Cross-sectional positive steel reinforcement and Cracking of concrete evaluation
+Cross-sectional negative steel reinforcement and Cracking of concrete evaluation
+Steel on cantilever
+Steel Cutting Length of the Cross-sectional steel
+Longitudinal steel reinforcement
+In the next sheet, based on the approximate moment diagram, there is additional information relating to the steel cutting length.
+
+Note: In the Excel book, the corresponding sections used to calculate the slab dimensions and reinforcements are cited accordingly in each line. Throughout the calculations, the density of concrete is assumed to be 2.4 ton/m3.
+
+Part 1: Moments and Weight of the Structure
+
+Inputs for this part include:
+
+Dead load amplification factor: A multiplier used to account for variations in the dead load, which includes the weight of the structure itself and any non-movable components.
+Thickness of the slab: The vertical distance (depth) of the bridge deck slab.
+Thickness of the slab in the cantilever area (if any): The vertical distance (depth) of the slab in the cantilever area, which is the part of the slab extending beyond the support.
+Thickness of the pavement: The vertical distance (depth) of the pavement material applied on top of the bridge deck slab.
+Width of barriers: The horizontal distance (width) of the barriers placed along the edges of the bridge to prevent vehicles from falling off.
+Height of sidewalks: The vertical distance (height) of the pedestrian walkways on the bridge.
+Width of sidewalks: The horizontal distance (width) of the pedestrian walkways on the bridge.
+Width of slab: The overall horizontal distance (width) of the bridge deck slab.
+Needed width for traffic lanes: The minimum required width for each traffic lane on the bridge.
+Number of beams: The total number of longitudinal beams supporting the bridge deck slab.
+Width of cantilever: The horizontal distance (width) of the slab extending beyond the support.
+Width of the beams: The horizontal distance (width) of each longitudinal beam supporting the bridge deck slab.
+Maximum positive moment for live load: The greatest moment (bending force) caused by the live load (movable objects such as vehicles) that the slab will experience in tension.
+Maximum negative moment for live load: The greatest moment (bending force) caused by the live load (movable objects such as vehicles) that the slab will experience in compression.
+Live load amplification factor: A multiplier used to account for variations in the live load, which includes movable objects such as vehicles and pedestrians.
+Part 2: Positive and Negative Bending Moment Steel
+
+Inputs for this part include:
+
+Elasticity modulus of concrete: A measure of the stiffness of concrete, which indicates how much it deforms under stress.
+Elasticity modulus of steel: A measure of the stiffness of steel, which indicates how much it deforms under stress.
+Ultimate compression strength of concrete: The maximum amount of compressive stress that concrete can withstand before failure.
+Yield strength of steel: The maximum amount of stress that steel can withstand before it begins to deform permanently.
+Flexural strength reduction factor: A factor that accounts for the reduction in flexural (bending) strength of the concrete and steel due to various factors, such as the presence of cracks or defects.
+For the barriers, dimensions need to be assumed based on the type of traffic and potential vehicle collisions. These dimensions include the diameter of longitudinal and cross-sectional steel reinforcement, spacing between bars, width of the barrier, height of the barrier, concrete cover, and strength reduction factor for controlled by tension sections.
+
+Part 3: Steel Design
+
+Inputs for this part are mostly derived from previous calculations, and the iterative process involves adjusting the steel reinforcement design to meet the requirements of the bridge's structural capacity.
