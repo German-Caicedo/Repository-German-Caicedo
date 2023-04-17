@@ -1,0 +1,768 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: C:\Users\USER\Desktop\E...es\zapata combinada\MODELO ZAPATA COMBINADA.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 520~Lin               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 020~Lin TO 008~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 535~Lin TO 517~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2020 TO    1517    -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 015~Lin TO 011~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 977~Lin TO 573~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2015 TO    1573    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 021~Lin TO 007~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 983~Lin TO 547~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2021               -   -   A   A   A   A
+    2019 TO    1548    A   A   A   A   A   A
+    1547               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 029~Lin TO 025~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 991~Lin TO 549~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2029               -   -   A   A   A   A
+    2028 TO    1550    A   A   A   A   A   A
+    1549               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 026~Lin TO 022~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 988~Lin TO 594~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2026 TO    1594    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 037~Lin TO 030~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 999~Lin TO 551~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2037               -   -   A   A   A   A
+    2036 TO    1552    A   A   A   A   A   A
+    1551               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 031~Lin               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 993~Lin TO 606~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2031 TO    1606    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 536~Lin               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 044~Lin TO 038~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 534~Lin               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 006~Lin TO 000~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 532~Lin TO 545~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2044 TO    1619    A   A   A   A   A   A
+    1545 TO    1536    -   -   A   A   A   A
+    1534 TO    1529    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 817~Lin TO 618~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1817 TO    1618    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 083~Lin TO 045~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 839~Lin TO 553~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2083               -   -   A   A   A   A
+    2082 TO    1554    A   A   A   A   A   A
+    1553               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 844~Lin TO 644~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1844 TO    1644    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 091~Lin TO 053~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 851~Lin TO 555~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2091               -   -   A   A   A   A
+    2090 TO    1556    A   A   A   A   A   A
+    1555               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 099~Lin TO 062~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 863~Lin TO 557~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2099               -   -   A   A   A   A
+    2097 TO    1558    A   A   A   A   A   A
+    1557               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 098~Lin TO 061~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 858~Lin TO 656~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2098 TO    1656    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 528~Lin               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 106~Lin TO 100~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 537~Lin               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 075~Lin TO 069~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 526~Lin TO 521~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2106 TO    1533    A   A   A   A   A   A
+    1528               -   -   A   A   A   A
+    1526 TO    1523    A   A   A   A   A   A
+    1521               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 145~Lin TO 107~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 886~Lin TO 559~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2145               -   -   A   A   A   A
+    2144 TO    1560    A   A   A   A   A   A
+    1559               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 152~Lin TO 115~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2152 TO    2115    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 153~Lin TO 116~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 898~Lin TO 561~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2153               -   -   A   A   A   A
+    2151 TO    1562    A   A   A   A   A   A
+    1561               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 161~Lin TO 124~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 910~Lin TO 563~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2161               -   -   A   A   A   A
+    2159 TO    1564    A   A   A   A   A   A
+    1563               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 160~Lin TO 123~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 906~Lin TO 701~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2160 TO    1701    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 543~Lin               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 168~Lin TO 162~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 542~Lin               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 137~Lin TO 131~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 540~Lin TO 546~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2168 TO    1712    A   A   A   A   A   A
+    1546 TO    1543    -   -   A   A   A   A
+    1542 TO    1538    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 207~Lin TO 169~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 933~Lin TO 565~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2207               -   -   A   A   A   A
+    2206 TO    1566    A   A   A   A   A   A
+    1565               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 215~Lin TO 177~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 945~Lin TO 567~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2215               -   -   A   A   A   A
+    2214 TO    1568    A   A   A   A   A   A
+    1567               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 216~Lin TO 185~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 947~Lin TO 748~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2216 TO    1748    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 223~Lin TO 186~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 957~Lin TO 569~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2223               -   -   A   A   A   A
+    2222 TO    1570    A   A   A   A   A   A
+    1569               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 961~Lin TO 762~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1961 TO    1762    -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 519~Lin               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 230~Lin TO 224~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 544~Lin               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 199~Lin TO 193~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 525~Lin TO 518~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2230 TO    1518    -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 06~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 306~Lin TO 294~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 21~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 268~Lin TO 256~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 13~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 077~Lin TO 057~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 17~Link TO 03~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1306 TO     803    -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 301~Lin TO 058~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 77~Link TO 59~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1301 TO     859    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 307~Lin TO 056~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 79~Link TO 33~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1307               -   -   A   A   A   A
+    1305 TO     834    A   A   A   A   A   A
+     833               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 315~Lin TO 080~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 91~Link TO 35~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1315               -   -   A   A   A   A
+    1314 TO     836    A   A   A   A   A   A
+     835               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 312~Lin TO 079~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 90~Link TO 80~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1312 TO     880    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 323~Lin TO 092~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 03~Link TO 00~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 98~Link TO 37~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1323               -   -   A   A   A   A
+    1322 TO     838    A   A   A   A   A   A
+     837               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 317~Lin TO 091~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 99~Link TO 92~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1317 TO     892    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 22~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 330~Lin TO 324~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 20~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 292~Lin TO 286~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 18~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 113~Lin TO 104~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 16~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 14~Link TO 05~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 15~Link TO 31~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1330 TO     905    A   A   A   A   A   A
+     831 TO     822    -   -   A   A   A   A
+     820 TO     815    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 103~Lin               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 04~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1103 TO     904    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 369~Lin TO 114~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 26~Link TO 15~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 40~Link TO 39~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1369               -   -   A   A   A   A
+    1368 TO     840    A   A   A   A   A   A
+     839               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 130~Lin TO 129~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 31~Link TO 30~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1130 TO     930    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 377~Lin TO 126~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 38~Link TO 27~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 42~Link TO 41~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1377               -   -   A   A   A   A
+    1376 TO     842    A   A   A   A   A   A
+     841               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 385~Lin TO 138~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 50~Link TO 39~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 44~Link TO 43~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1385               -   -   A   A   A   A
+    1383 TO     844    A   A   A   A   A   A
+     843               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 384~Lin TO 141~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 45~Link TO 42~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1384 TO     942    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 14~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 392~Lin TO 386~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 23~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 361~Lin TO 355~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 12~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 160~Lin TO 150~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 19~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 61~Link TO 51~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 09~Link TO 07~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1392 TO     819    A   A   A   A   A   A
+     814               -   -   A   A   A   A
+     812 TO     809    A   A   A   A   A   A
+     807               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 431~Lin TO 161~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 73~Link TO 62~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 46~Link TO 45~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1431               -   -   A   A   A   A
+    1430 TO     846    A   A   A   A   A   A
+     845               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 438~Lin TO 401~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1438 TO    1401    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 439~Lin TO 173~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 85~Link TO 74~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 48~Link TO 47~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1439               -   -   A   A   A   A
+    1437 TO     848    A   A   A   A   A   A
+     847               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 447~Lin TO 185~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 97~Link TO 86~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 50~Link TO 49~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1447               -   -   A   A   A   A
+    1445 TO     850    A   A   A   A   A   A
+     849               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 446~Lin TO 186~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 93~Link TO 87~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1446 TO     987    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 29~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 454~Lin TO 448~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 28~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 423~Lin TO 417~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 26~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 207~Lin TO 197~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 25~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 008~Lin TO 000~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 99~Link TO 98~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 24~Link TO 32~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1454 TO     998    A   A   A   A   A   A
+     832 TO     829    -   -   A   A   A   A
+     828 TO     824    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 493~Lin TO 009~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 52~Link TO 51~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1493               -   -   A   A   A   A
+    1492 TO     852    A   A   A   A   A   A
+     851               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 501~Lin TO 021~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 54~Link TO 53~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1501               -   -   A   A   A   A
+    1500 TO     854    A   A   A   A   A   A
+     853               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 502~Lin TO 034~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1502 TO    1034    A   A   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 509~Lin TO 033~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 56~Link TO 55~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1509               -   -   A   A   A   A
+    1508 TO     856    A   A   A   A   A   A
+     855               -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 247~Lin TO 048~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1247 TO    1048    -   -   A   A   A   A
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 05~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 516~Lin TO 510~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 30~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 485~Lin TO 479~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 11~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 254~Lin TO 244~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 27~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 055~Lin TO 045~Lin    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 08~Link TO 04~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1516 TO     804    -   -   A   A   A   A
+     592 TO     103    A   A   A   A   A   A
+      99 TO      12    -   -   -   A   A   A
+       4 TO     541    A   A   A   A   A   A
+     364               -   -   -   A   A   A
+     358 TO     147    A   A   A   A   A   A
+     120               -   -   -   A   A   A
+     119 TO     559    A   A   A   A   A   A
+     376               -   -   -   A   A   A
+     374 TO     167    A   A   A   A   A   A
+     122               -   -   -   A   A   A
+     121 TO     564    A   A   A   A   A   A
+     388               -   -   -   A   A   A
+     387 TO     179    A   A   A   A   A   A
+     124               -   -   -   A   A   A
+     123 TO     106    A   A   A   A   A   A
+     104               -   -   -   A   A   A
+     102               A   A   A   A   A   A
+     101               -   -   -   A   A   A
+     389 TO     617    A   A   A   A   A   A
+     411               -   -   -   A   A   A
+     409 TO     205    A   A   A   A   A   A
+     126               -   -   -   A   A   A
+     125 TO     625    A   A   A   A   A   A
+     423               -   -   -   A   A   A
+     422 TO     213    A   A   A   A   A   A
+     128               -   -   -   A   A   A
+     127 TO     634    A   A   A   A   A   A
+     435               -   -   -   A   A   A
+     434 TO     225    A   A   A   A   A   A
+     130               -   -   -   A   A   A
+     129 TO     100    A   A   A   A   A   A
+      98 TO      11    -   -   -   A   A   A
+       9 TO     679    A   A   A   A   A   A
+     458               -   -   -   A   A   A
+     457 TO     248    A   A   A   A   A   A
+     132               -   -   -   A   A   A
+     131 TO     688    A   A   A   A   A   A
+     470               -   -   -   A   A   A
+     469 TO     260    A   A   A   A   A   A
+     134               -   -   -   A   A   A
+     133 TO     696    A   A   A   A   A   A
+     482               -   -   -   A   A   A
+     481 TO     272    A   A   A   A   A   A
+     136               -   -   -   A   A   A
+     135 TO     114    A   A   A   A   A   A
+     112               -   -   -   A   A   A
+     111               A   A   A   A   A   A
+     110               -   -   -   A   A   A
+     504 TO     741    A   A   A   A   A   A
+     505               -   -   -   A   A   A
+     503 TO     295    A   A   A   A   A   A
+     138               -   -   -   A   A   A
+     137 TO     750    A   A   A   A   A   A
+     517               -   -   -   A   A   A
+     516 TO     307    A   A   A   A   A   A
+     140               -   -   -   A   A   A
+     139 TO     758    A   A   A   A   A   A
+     529               -   -   -   A   A   A
+     528 TO     319    A   A   A   A   A   A
+     142               -   -   -   A   A   A
+     141 TO     113    A   A   A   A   A   A
+      97 TO      10    -   -   -   A   A   A
+       3 TO       8    A   A   A   A   A   A
+       7 TO       6    -   -   -   A   A   A
+       5               A   A   A   A   A   A

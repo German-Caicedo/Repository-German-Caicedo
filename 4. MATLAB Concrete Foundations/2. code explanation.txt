@@ -1,0 +1,10 @@
+This MATLAB code calculates and plots the working stress of nodes in a
+ combined footing based on the imported displacements from the text file 
+def_zapcomb_H65cm.txt. It clears the workspace, defines
+ variables B (soil stiffness factor), qa (admissible stress of the soil), 
+and h (footing thickness). The displacements are multiplied by the soil 
+stiffness factor B to calculate working stress at each node. Then, it determines
+ which nodes exceed the admissible stress and calculates the percentage of nodes
+ exceeding this value. The code plots the working stress of each node, alongside the 
+admissible stress as a reference, and includes the footing thickness and the percentage
+ of nodes exceeding the admissible stress in the legend.
