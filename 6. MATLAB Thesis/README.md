@@ -1,1 +1,3 @@
+The first project is an ARIMA model that analyzes and forecasts river flow data from 2011 to 2018 using MATLAB. It includes sections for data preprocessing, transformation, model fitting, forecasting, simulation, and evaluation. Versions for 1-week, 2-week, and 1-month intervals are available.
 
+The second project is a MATLAB code that analyzes and predicts river flow data using an autoregressive model, the Thomas-Fiering model. It includes sections for data preprocessing, model fitting, and visualization. It has been tested with various time intervals (15 minutes, 1 hour, 1 day, 1 week, 2 weeks, and 1 month).
