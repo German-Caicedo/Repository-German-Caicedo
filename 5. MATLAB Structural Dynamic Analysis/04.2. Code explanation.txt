@@ -1,0 +1,8 @@
+
+4.	EigValues&ForceCalculation
+This code is used for earthquake engineering analysis. It starts by clearing the workspace, closing all open figures, and defining some constants and variables.
+Next, two equations for the earthquake response spectrum are defined using symbolic math operations. The equations depend on the period of the structure and coefficients related to the soil and the earthquake ground motion.
+The code then defines the structural properties of the building, including the elastic modulus, moments of inertia, stiffness coefficients, and mass matrix. Eigenvalue analysis is performed on the stiffness and mass matrices to obtain the natural frequencies and mode shapes of the structure.
+Using the natural frequencies and mode shapes, along with the earthquake response spectrum equations defined earlier and the mass of each floor, the seismic response of the structure is calculated. Maximum earthquake forces and displacements are calculated and plotted.
+The code then calculates the total earthquake-induced base shear force on the structure and plots the distribution of forces along the height of the structure.
+Overall, this code provides a way to simulate the response of a multi-story building to an earthquake and calculate the forces and displacements experienced by the structure.
