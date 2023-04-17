@@ -1,0 +1,29 @@
+Thomas-Fierring Model
+This MATLAB code analyzes and predicts river flow data using an autoregressive model.
+The code includes sections for data preprocessing, model fitting, and visualization.
+It was tested with various time intervals (15 minutes, 1 hour, 1 day, 1 week, and 1 month).
+This is the version for the two week interval version:
+
+a. Data preprocessing:
+
+Clear command window, workspace, and close figures.
+Load and clean data.
+Organize data into a 3D matrix.
+Calculate daily averages.
+Adjust the data matrix.
+Organize data into another 3D matrix.
+Compute means of the matrix along the second dimension.
+b. Model fitting and prediction:
+
+Initialize variables and matrices.
+Calculate correlations and coefficients for the autoregressive model.
+Generate 1000 predictions using the autoregressive model.
+Transform predictions back to the original scale.
+Calculate percentiles of the predictions.
+Handle negative values or values greater than maxQ in predictions.
+Fill missing values using linear interpolation.
+Calculate the proportion of observed values within specified ranges.
+c. Visualization:
+
+Create a plot showing predicted river flow distribution for each 2-week period,
+observed river flow values, and the specified predicted percentile ranges compared with the predicted .

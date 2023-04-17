@@ -1,0 +1,26 @@
+ARIMA Model
+This MATLAB code analyzes and forecasts river flow data from 2011 to 2018 using a Autoregressive Integrated Moving Average (ARIMA) model. The code includes sections for data preprocessing, transformation, model fitting, forecasting, simulation, and evaluation. It also has versions for 1-week and 1-month intervals.
+a. Preprocessing:
+
+Clear command window, workspace, and close figures.
+Load and clean data.
+Organize data into a 3D array.
+Calculate daily averages.
+b. Data transformation:
+
+Adjust the data matrix.
+Compute weekly averages for 2011-2017 and 2018.
+c. Model fitting:
+
+Define ARIMA models with various orders and seasonality.
+Fit models and compute performance metrics.
+Select the best model based on the lowest BIC value.
+d. Forecasting and simulation:
+
+Estimate the best model and forecast river flow for 27 weeks.
+Perform a Monte Carlo simulation with 1000 paths and calculate percentiles.
+e. Model evaluation:
+
+Compare observed values to percentiles.
+Plot predictions, observed values, and their ranges.
+Compute additional evaluation metrics and create diagnostic plots.
