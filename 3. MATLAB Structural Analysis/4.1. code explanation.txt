@@ -1,0 +1,35 @@
+This MATLAB code computes the reactions, displacements, and rotations in the nodes of a structure with beams with variable cross-sections. The code is divided into two main parts. The first part calculates these values for the original structure with beams with variable cross-sections. The second part, which starts with the line "clearvars -except RyD MA XB thC disc" and the for-loop "for cn=1:11", calculates the same values but with prismatic (uniform cross-section) equivalent beams.
+
+As the number of prismatic beams into which the original beam is divided increases, the solution more closely resembles the original. This approximation is done by dividing the original beam into multiple prismatic beams and then calculating the reactions, displacements, and rotations for this new structure. The code iterates through different divisions of the original beam (1, 2, 4, 8, 16, 32, 64, 90, 100, 115) to analyze how the approximation improves as more prismatic beams are used.
+
+The code begins by loading data files containing information about the structure, such as supports, loads, connections, and coordinates.
+
+The length of each element is calculated and stored in the vector X.
+
+The cross-sectional area (Ax) and the moment of inertia (Ix) are computed using the given variable cross-section data.
+
+The code calculates the flexibility coefficients (f11, f22, f23, f33) using the given properties of the structure and the integral calculations.
+
+The local stiffness matrices (K) for each element are assembled using the calculated flexibility coefficients.
+
+Distributed loads are integrated to calculate the equivalent nodal forces (dt1, th1, dt2, th2) and the reactions (QQ1, QQ2) at the ends of the elements.
+
+The code calculates the global degrees of freedom (DOF) for each node in the structure.
+
+The transformation matrix (T) is created to rotate the local coordinate system of each element to match the global coordinate system.
+
+The location matrix (L) is constructed for each element, which maps the global DOFs to the local DOFs.
+
+The global stiffness matrix (KE) is assembled by summing the local stiffness matrices (Ki) after transforming them from local to global coordinates.
+
+The global equivalent nodal forces (SFEPG) are calculated by transforming the local forces (FEPL) to the global coordinate system.
+
+The reduced stiffness matrix (KQQ) is created by removing the rows and columns corresponding to the restrained DOFs from the global stiffness matrix (KE).
+
+Nodal displacements (DQ) are calculated by solving the system of equations KQQ*DQ = Q-SFEPG, where Q is the vector of applied loads.
+
+The reactions (R) are calculated using the global stiffness matrix (KRQ) and the calculated nodal displacements (DQ).
+
+The code then iterates through different discretizations (dividing the original beam into smaller segments) and repeats the entire process for equivalent prismatic beams (uniform cross-section). This is done to compare the results with the original variable cross-section beam.
+
+Throughout the process, the code stores the results such as reactions, displacements, and rotations in the vectors RyD, MA, XB, and thC, which can be used for further analysis and post-processing.
